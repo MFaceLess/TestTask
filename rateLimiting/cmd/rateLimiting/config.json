@@ -1,0 +1,10 @@
+{
+    "listen_port": 8080,
+    "refill_interval": 1,
+    "bucket_default_capacity": 30,
+    "default_refill_rate": 0.5,
+
+    "username": "admin",
+    "password": "admin",
+    "db_name": "clients_db"
+}

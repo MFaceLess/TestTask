@@ -1,0 +1,10 @@
+{
+    "listen_port": 8080,
+    "algorithm": "random",
+    "backends": [
+        "http://localhost:8081",
+        "http://localhost:8082",
+        "http://localhost:8083"
+    ],
+    "health_check_interval": 10
+}

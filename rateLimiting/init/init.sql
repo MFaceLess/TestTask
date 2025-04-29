@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS clients_info (
+    client_ip VARCHAR(256) PRIMARY KEY,
+    capacity DOUBLE PRECISION NOT NULL,
+    rate DOUBLE PRECISION NOT NULL
+);
